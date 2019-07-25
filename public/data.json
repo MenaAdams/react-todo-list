@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "group": "Purchases",
+    "task": "Go to the bank",
+    "dependencyIds": [],
+    "completedAt": null
+  },
+  {
+    "id": 2,
+    "group": "Purchases",
+    "task": "Buy litter box",
+    "dependencyIds": [
+      1
+    ],
+    "completedAt": null
+  },
+  {
+    "id": 3,
+    "group": "Purchases",
+    "task": "Buy kitty litter",
+    "dependencyIds": [
+      1
+    ],
+    "completedAt": null
+  },
+  {
+    "id": 4,
+    "group": "Purchases",
+    "task": "Buy cat toys",
+    "dependencyIds": [
+      1
+    ],
+    "completedAt": null
+  },
+  {
+    "id": 5,
+    "group": "Purchases",
+    "task": "Buy cat food",
+    "dependencyIds": [
+      1
+    ],
+    "completedAt": null
+  },
+  {
+    "id": 6,
+    "group": "Adopt a Kitty",
+    "task": "Adopt kitty from the shelter",
+    "dependencyIds": [
+      2,
+      3,
+      4
+    ],
+    "completedAt": null
+  },
+  {
+    "id": 7,
+    "group": "Adopt a Kitty",
+    "task": "Feed the kitty",
+    "dependencyIds": [
+      5,
+      6
+    ],
+    "completedAt": null
+  },
+  {
+    "id": 8,
+    "group": "Adopt a Kitty",
+    "task": "Have a snack",
+    "dependencyIds": [],
+    "completedAt": null
+  }
+]
