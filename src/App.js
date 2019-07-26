@@ -7,13 +7,14 @@ function Task(props) {
   let task = null;
   if (props.unlocked === true) {
     task =  <li>
-              <label>
-                <input 
-                  value={props.id}
-                  type="checkbox" 
-                  onClick={props.handleTaskCompletion}
-                  checked={props.completedAt}
-                /> 
+              <input 
+                id={props.id}
+                value={props.id}
+                type="checkbox" 
+                onClick={props.handleTaskCompletion}
+                checked={props.completedAt}
+              /> 
+              <label htmlFor={props.id}>
                 {props.description}
               </label>
             </li>;
